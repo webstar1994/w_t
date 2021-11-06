@@ -1,0 +1,54 @@
+
+ ######Requirement
+ (1) About Water Token
+
+    - Maximum Supply 100,000,000,000 -100 billion BEP-20 Tokens
+
+    - Minted on the creation of the contract
+        Anti-Whale 0.2% of the circulating supply. (it says that it is already in the contract)
+
+    - 5 % to Development Team Vesting 
+        5% of Maximum Supply 5,000,000,000- 5 billion 
+        divided evenly between development team members
+        Tokens are time-locked for one year.
+        Development team’s Tokens can receive 8% BUSD rewards while in their wallet. 
+
+    - 5% to Water Fund
+        The water fund project fund. This fund receives BUSD rewards.
+
+    - 40 % to Community members airdrop
+        40 billion. 
+        One million Water Tokens will be given to 45,000 members who want to join the project. 
+        They will sign up with their wallet address. 
+        Members will only receive BUSD rewards when they stake their H2O in the H2O-BUSD liquidity pool in Pancake Swap.(BSCscan Query Wallet addresses in Pancake Swap H2O-BUSD liquidity pool with an member’s wallet address to determine that they are staking their H2O in H2O-BUSD liquidity Pool in Pancake Swap) 
+        This creates liquidity and token holders can earn three ways:
+            *BUSD rewards from all buy/sell in contract, 
+            *0.17% paid in CAKE for providing the liquidity reward for transactions in the H2O/BUSD liquidity pool, 
+            *and farming their CAKE LP Tokens in Pancake Swap
+
+    - 50 % to a Pancake Swap Liquidity Pool
+        50% of tokens are used to create an H2O-BUSD liquidity pool. 
+
+ (2) Water Token buy/sell Transaction fees in contract
+
+    - 8% of all H2O holders receive BUSD rewards. BUSD is redistributed to all token holders directly in their wallets.  
+      (Already in Contract) 
+    - A 4% transaction fee is deposited in the H2O-BUSD liquidity pool in Pancake Swap  
+      (already in contract, We need to change the address to the Pancake Swap liquidity pool.)
+    - 3% of the transaction fee is sent to the Water Fund, 
+      A public wallet that holds the funds for the water projects that are voted on. 
+      (2% is in the contract called buyback Wallet. 1 % is in the contract as marketing.)
+    - Total transaction fee is 14% (this is already in the contract)
+ (3) Governance 
+    All holders of the Water Token get to vote deciding what water projects get funded.
+    I want to make a dashboard like this for the Water Token
+    Binance (BNB) Blockchain ExplorerBinance (BNB) Blockchain Explorer
+    Contract Address 0xC001BBe2B87079294C63EcE98BdD0a88D761434e | BscScan
+    The Contract Address 0xC001BBe2B87079294C63EcE98BdD0a88D761434e page allows users to view the source code, transactions, balances, and analytics for the contract address. Users can also interact and make transactions to the contract directly on BscScan.
+
+
+
+####### information
+Upgrade Code -https://docs.openzeppelin.com/upgrades/2.8/
+Copy EverGrowCoin contract and revise it to:
+https://bscscan.com/address/0xC001BBe2B87079294C63EcE98BdD0a88D761434e#code
